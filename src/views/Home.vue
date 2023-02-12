@@ -41,15 +41,18 @@ const tbody = [
 
     <Card col="col-md-6" title="Sample card">
       <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quae dolorem. Eos tenetur quas ducimus aperiam
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quae dolorem. Eos tenetur quas ducimus
+        aperiam
         suscipit, eum debitis ullam obcaecati aliquid! Dolor excepturi temporibus veniam est praesentium minima. Non.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima magni error unde reiciendis odit beatae aliquid
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima magni error unde reiciendis odit beatae
+        aliquid
         cupiditate illo fugiat aperiam quaerat, veritatis corporis voluptate voluptatem fugit rem. Cupiditate,
         praesentium
         doloribus.
       </div>
       <div class="mt-3">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam suscipit voluptatum quasi soluta placeat sequi
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam suscipit voluptatum quasi soluta placeat
+        sequi
         optio error, maxime est eos iste accusamus distinctio magni quam deleniti temporibus a vero tenetur.
       </div>
     </Card>

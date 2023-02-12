@@ -13,10 +13,8 @@ onMounted(async () => {
 
 <template>
   <div class="row row-cards">
-
     <Card col="col-md-12" padding="card-md">
       <VueShowdown flavor="github" :markdown="markdown" />
     </Card>
-
   </div>
 </template>

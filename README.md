@@ -1,5 +1,7 @@
 # <p align="center">Vue 3 + Vite + TypeScript + Tabler</p>
 
+<h2 style='color:orange'> Work in progress</h2>
+
 ## 🛠️ Install and run
 ```bash
 git clone https://github.com/Fl0wyn/vue-tabler-starter.git

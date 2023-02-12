@@ -10,9 +10,6 @@ const item = {
     <div class="container-xl">
       <div class="row g-2 align-items-center">
         <div class="col">
-          <div class="page-pretitle">
-            {{ $route.path }}
-          </div>
           <h2 class="page-title">
             {{ $route.name }}
           </h2>
