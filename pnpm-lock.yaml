@@ -3,11 +3,9 @@ lockfileVersion: 5.4
 specifiers:
   '@tabler/core': 1.0.0-beta17
   '@tabler/icons-vue': ^2.3.0
-  '@types/marked': ^4.0.8
   '@types/node': ^18.11.12
   '@vitejs/plugin-vue': ^4.0.0
   '@vue/tsconfig': ^0.1.3
-  marked: ^4.2.12
   npm-run-all: ^4.1.5
   typescript: ~4.7.4
   vite: ^4.0.0
@@ -19,13 +17,11 @@ specifiers:
 dependencies:
   '@tabler/core': 1.0.0-beta17
   '@tabler/icons-vue': 2.3.0_vue@3.2.47
-  marked: 4.2.12
   vue: 3.2.47
   vue-router: 4.1.6_vue@3.2.47
   vue-showdown: 4.0.0
 
 devDependencies:
-  '@types/marked': 4.0.8
   '@types/node': 18.13.0
   '@vitejs/plugin-vue': 4.0.0_vite@4.1.1+vue@3.2.47
   '@vue/tsconfig': 0.1.3_@types+node@18.13.0
@@ -328,10 +324,6 @@ packages:
   /@tabler/icons/2.3.0:
     resolution: {integrity: sha512-zYSgqYodvuuJPNl+Z5UaAP1adzONtCS923aKp7k6SuchrNOc8HE45epzI3ED0X2glYmFkd0Y/YXqPDhYi2p3Fw==}
     dev: false
-
-  /@types/marked/4.0.8:
-    resolution: {integrity: sha512-HVNzMT5QlWCOdeuBsgXP8EZzKUf0+AXzN+sLmjvaB3ZlLqO+e4u0uXrdw9ub69wBKFs+c6/pA4r9sy6cCDvImw==}
-    dev: true
 
   /@types/node/18.13.0:
     resolution: {integrity: sha512-gC3TazRzGoOnoKAhUx+Q0t8S9Tzs74z7m0ipwGpSqQrleP14hKxP4/JUeEQcD3W1/aIpnWl8pHowI7WokuZpXg==}
@@ -923,12 +915,6 @@ packages:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
     dependencies:
       sourcemap-codec: 1.4.8
-
-  /marked/4.2.12:
-    resolution: {integrity: sha512-yr8hSKa3Fv4D3jdZmtMMPghgVt6TWbk86WQaWhDloQjRSQhMMYCAro7jP7VDJrjjdV8pxVxMssXS8B8Y5DZ5aw==}
-    engines: {node: '>= 12'}
-    hasBin: true
-    dev: false
 
   /memorystream/0.3.1:
     resolution: {integrity: sha512-S3UwM3yj5mtUSEfP41UZmt/0SCoVYUcU1rkXv+BQ5Ig8ndL4sPoJNBUJERafdPb5jjHJGuMgytgKvKIf58XNBw==}
