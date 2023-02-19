@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted } from 'vue';
 import { RouterLink } from 'vue-router'
-import { IconMoon, IconSun, IconHome, IconSettings, IconBox } from '@tabler/icons-vue';
+import { IconMoon, IconSun, IconHome, IconSettings, IconMarkdown, IconBox } from '@tabler/icons-vue';
 import myLogo from '../assets/logo.svg';
 
 interface Logo {
@@ -26,6 +26,11 @@ const items = [
     name: 'Settings',
     href: '/settings',
     icon: IconSettings,
+  },
+  {
+    name: 'Markdown',
+    href: '/markdown',
+    icon: IconMarkdown,
   },
 ];
 
