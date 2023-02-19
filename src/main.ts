@@ -1,15 +1,15 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
 
-import { VueShowdown } from 'vue-showdown';
+import { VueShowdown } from "vue-showdown";
 
-import '@tabler/core/dist/css/tabler.min.css'
-import '@tabler/core/dist/js/tabler.min.js'
+import "@tabler/core/dist/css/tabler.min.css";
+import "@tabler/core/dist/js/tabler.min.js";
 
-const app = createApp(App)
+const app = createApp(App);
 
-app.component('VueShowdown', VueShowdown);
-app.use(router)
+app.component("VueShowdown", VueShowdown);
+app.use(router);
 
-app.mount('#app')
+app.mount("#app");
